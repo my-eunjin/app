@@ -46,7 +46,7 @@ a {text-decoration: none;}
 .product_container>.product_banner .bannerText {width: 100%; position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%); color: #fff; text-align: center;}
 .product_container>.product_banner .bannerText>h3 {font-size: 1.5rem; font-weight: bold; letter-spacing: 2px;}
 .product_container>.product_banner .bannerText>p {margin-bottom: 15px; font-weight: 300;}
-.product_container>.product_banner .bannerText>a {font-size: 12px; font-weight: 100; text-decoration: underline;}
+.product_container>.product_banner .bannerText>a {color: #fff; font-size: 12px; font-weight: 100; text-decoration: underline;}
 .product_container>.product_item>.main_product {margin-bottom: 100px;}
 .product_container>.product_item>.main_product .item_wrap {position: relative; margin-bottom: 25px;}
 .product_container>.product_item>.main_product .text_wrap {width: 100%; position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); color: #fff; text-align: center;}
@@ -68,7 +68,7 @@ a {text-decoration: none;}
 .line_wrap>.bestline .text_wrap>span {font-weight: 300;}
 .line_wrap .swiper-wrapper>div:nth-of-type(3) .text_wrap {color: #fff;}
 .line_wrap .swiper-wrapper>div:nth-of-type(8) .text_wrap {color: #fff;}
-.line_wrap .subitem_wrap {display: flex; justify-content: center;}
+.line_wrap .subitem_wrap {display: flex; justify-content: center; gap: 6px;}
 .line_wrap .subitem_wrap>figure {display: flex; gap: 12px; flex-direction: column; flex-wrap: wrap; flex: 1 1 0; width: 30%;}
 .line_wrap .subitem_wrap>figure>img {width: 100%; display: block;}
 .line_wrap .subitem_wrap figcaption {width: 100%; letter-spacing: -0.5px;}
