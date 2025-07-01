@@ -20,7 +20,7 @@
     "styled-components": "^6.1.19",
     "swiper": "^11.2.8",
     "web-vitals": "^2.1.4",
-    "homepage": "https://my-eunjin.github.io/medicube/"
+    "homepage": "https://my-eunjin.github.io/app/"
   },
   "scripts": {
     "start": "react-scripts start",
