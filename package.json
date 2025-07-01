@@ -19,9 +19,9 @@
     "react-tabs": "^6.1.0",
     "styled-components": "^6.1.19",
     "swiper": "^11.2.8",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://my-eunjin.github.io/app/"
+    "web-vitals": "^2.1.4"
   },
+  "homepage": "https://my-eunjin.github.io/app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
