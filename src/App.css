@@ -28,10 +28,10 @@ a {text-decoration: none;}
 .header .bannerText>h3,.header .bannerText>p {margin: 0; text-align: center; color: #fff;}
 .header .bannerText>h3 {font-size: 1.8rem; font-weight: bold;}
 .header .bannerText>p {font-size: 1.5rem; margin-top: 20px;}
-.swiper-pagination-fraction { padding: 2px 15px; border-radius: 15px; background: rgba(0, 0, 0, 0.45); color: #fff; display: block;}
+.header>section>.swiper>div:last-child {position: absolute; left: 80% !important; bottom: 20px; width: 70px;}
+.swiper-pagination-fraction {padding: 2px 15px; border-radius: 15px; background: rgba(0, 0, 0, 0.45); color: #fff; display: block;}
 .swiper-pagination-fraction>span {color: #fff;}
 .swiper-pagination-total {opacity: 0.4;}
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {left: 80% !important; bottom: 30px !important;}
 
 /* product */
 .product_container {width: 100%;}
