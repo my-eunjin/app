@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.5820e369.css",
-    "main.js": "/app/static/js/main.a96eb185.js",
+    "main.css": "/app/static/css/main.72222fb0.css",
+    "main.js": "/app/static/js/main.0c0c13e4.js",
     "static/js/453.c2c7c389.chunk.js": "/app/static/js/453.c2c7c389.chunk.js",
     "static/media/medi_logo.png": "/app/static/media/medi_logo.f4796731967a30c5a80a.png",
     "index.html": "/app/index.html",
     "static/media/ico_basket.svg": "/app/static/media/ico_basket.0b7ec5c94f9db1883d0c.svg",
     "static/media/ico_zoom.svg": "/app/static/media/ico_zoom.3478c9d01560da9fc936.svg",
-    "main.5820e369.css.map": "/app/static/css/main.5820e369.css.map",
-    "main.a96eb185.js.map": "/app/static/js/main.a96eb185.js.map",
+    "main.72222fb0.css.map": "/app/static/css/main.72222fb0.css.map",
+    "main.0c0c13e4.js.map": "/app/static/js/main.0c0c13e4.js.map",
     "453.c2c7c389.chunk.js.map": "/app/static/js/453.c2c7c389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5820e369.css",
-    "static/js/main.a96eb185.js"
+    "static/css/main.72222fb0.css",
+    "static/js/main.0c0c13e4.js"
   ]
 }
