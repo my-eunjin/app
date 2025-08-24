@@ -41,6 +41,7 @@ function Header() {
   }, []);
 
   const handleSlideChange=()=>{
+    gsap.killTweensOf('.bannerText>*');
     gsap.fromTo('.bannerText>*',
     {opacity:0, x:30, duration:0},
     {opacity:1, x:0, duration:0.5, stagger:0.3, ease: 'power3.out', overwrite:'auto',
@@ -107,4 +108,5 @@ function Header() {
   
 
   export default Header;
+
 
