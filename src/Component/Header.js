@@ -78,7 +78,6 @@ function Header() {
             onSlideChangeTransitionEnd={handleSlideChange}
             centeredSlides={true}
             autoplay={{
-              delay: 5000,
               disableOnInteraction: false,
               }}
               pagination={{
@@ -108,3 +107,4 @@ function Header() {
   
 
   export default Header;
+
