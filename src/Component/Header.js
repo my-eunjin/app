@@ -40,17 +40,16 @@ function Header() {
     return()=>window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleSlideChange=()=>{
-    gsap.killTweensOf('.bannerText>*');
-    gsap.fromTo('.bannerText>*',
-    {opacity:0, x:30, duration:0},
-    {opacity:1, x:0, duration:0.5, stagger:0.3, ease: 'power3.out', overwrite:'auto',
-      scrollTrigger:{
-        trigger:'.mySwiper', once:true,
-        }
-      }
+  const handleSlideChange = (swiper) => {
+    const currentSlide = swiper.slides[swiper.activeIndex];
+    const bannerText = currentSlide.querySelector('.bannerText');
+    if (!bannerText) return;
+    gsap.killTweensOf(bannerText.children);
+    gsap.set(bannerText.children, { opacity: 0, x: 30 });
+    gsap.to(bannerText.children,
+      { opacity: 1, x: 0, duration: 0.5, stagger: 0.3, ease: 'power3.out', overwrite: 'auto'}
     );
-  }
+  };
   
   const mainBanner = [
     {id:1, src:`${process.env.PUBLIC_URL}/images/banner1.jpg`, alt:'부스터 프로', title1:'', title2:'', subtitle:''},
@@ -106,7 +105,4 @@ function Header() {
     );
   }
   
-
   export default Header;
-
-
