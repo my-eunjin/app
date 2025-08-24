@@ -75,7 +75,7 @@ function Header() {
         </nav>
         <section>
           <Swiper
-            onSlideChange={handleSlideChange}
+            onSlideChangeTransitionEnd={handleSlideChange}
             centeredSlides={true}
             autoplay={{
               delay: 5000,
@@ -106,4 +106,5 @@ function Header() {
     );
   }
   
+
   export default Header;
