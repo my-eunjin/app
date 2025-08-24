@@ -8,6 +8,7 @@ a {text-decoration: none;}
 .title {display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;}
 .title>h3 {font-size: 1.5rem; font-weight: bold;}
 .title>a {display: block; font-size: 12px; height: 28px; width: 50px; text-align: center; color: #9c9c9c; border: 1px solid #9c9c9c; padding-top: 3px;}
+.bannerText > * {opacity: 0;}
 
 /* header */
 .header {width: 100%; position: relative; z-index: 9999; margin: 0 auto; margin-bottom: 40px;}
