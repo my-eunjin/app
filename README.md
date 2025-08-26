@@ -17,7 +17,7 @@
 <br/>
 
 ## 📌 사용 툴
-- `react` `swiper` `gsap`
+- `react` `css` `swiper` `gsap`
 <br/>
 
 ## ✏ 작업 내용
